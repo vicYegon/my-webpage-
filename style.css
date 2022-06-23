@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-size: cover;
+    background-position: top;   
+    text-align: center; 
+    background: rgba(70, 50, 60, 0.87);
+    padding-bottom: 10px;
+    height: 100vh;
+}
+
+.logo{
+    color: white;
+    float: left;
+    padding-bottom: 5px;
+    margin-top: 5px;
+    font-size: 30px;
+}
+.logo:hover{
+    color: rgb(240, 93, 9);
+    transition: 0.4s ease-in-out
+}
+.nav_list a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.nav_list a:hover{
+    transition: 0.4s ease-in-out;
+    color: rgb(240, 93, 9);
+}
+.nav_list li{
+    text-align: center;
+    display: inline;
+    padding: 20px 5%;
+}
+.myimage img{
+    justify-content: center;
+    height:370px;
+    width: 400px;
+    border: 5px solid coral;
+    border-radius: 50%;   
+    float: right;
+}
+.intro img{
+    float: right;
+    margin-right: 50px;
+}
+.aboutme{
+    background: rgba(70, 50, 60, 0.87);;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    padding: 20px;
+    color: white;
+}
+.intro p{
+    font-size: 23px;
+    line-height: 40px;
+}
+.my_info{
+    text-align: center;
+    padding: 30px;
+}
