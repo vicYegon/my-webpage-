@@ -2,25 +2,124 @@
 <html>
     <meta charset="UTF-8">
     <meta name="viewport" content="width+device-width, initial-scale = 1.0"> 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./home.css">
+    <script src="https://kit.fontawesome.com/2d8fe98e97.js" crossorigin="anonymous"></script>
     <link rel="icon" type="image/x-icon" href="LOGO.png">
     <title>vic yegon</title>
 <body>
-    <header>
-    <nav class="nav_bar">
-        <div class="logo">
-            <h2>VIC</h2>
+    <div class="home_section" id="home">
+            <nav class="nav_bar">
+                <div class="logo">
+                    <h2>m<span>R</span>aiya</h2>
+                </div>
+                <div class="nav_list">
+                    <ul>
+                        <li><a href="#home" class="nav_link">HOME</a></li>
+                        <li><a href="#about" class="nav_link">ABOUT ME</a></li>
+                        <li><a href="#skills" class="nav_link">SKILLS</a></li>
+                        <li><a href="#contact" class="nav_link">CONTACTS</a></li>
+                        <li><a href="./blog.html" class="nav_link">BLOGS</a></li>
+                    </ul>
+                </div>
+            </nav>
+        
+        <div class="home_body">
+            <div class="home_info">
+                <h2>Hi, I'm <br><span class="home_name">Victor Yegon</span></h2>
+                <p>Software Developer <br>based in Nairobi, Kenya</p>
+            </div>
         </div>
-        <div class="nav_list">
-            <ul>
-                <li class="nav_item"><a href="index.html" class="nav_link">HOME</a></li>
-                <li class="nav_item"><a href="about me.html" class="nav_link">ABOUT ME</a></li>
-                <li class="nav_item"><a href="skills.html" class="nav_link">SKILLS</a></li>
-                <li class="nav_item"><a href="contact.html" class="nav_link">CONTACTS</a></li>
+    </div>
+    <div class="about_section" id="about">
+        <div class="about_me_info">
+            <h2>About Me <i class="fa-solid fa-address-card"></i></h2>
+            <p>I'm VICTOR KIPKOSGEI YEGON, a software developer currently based in Nairobi, Kenya. 
+                I am a Kenyan citizen by birth. My education, development and intellectual life has been in Kenyas' schools.
+                I started my journey in computing through gaming and later learnt how easier problem solving became through 
+                the use of computers.<br> 
+                Later, I joined campus at Egerton University Main Campus, Njoro. It is here that I elavated my computing and programming 
+                career journey by studying computer science as a course. Also, I have since been a self-taught softaware developer 
+                majorly learning design and the front-end progarmming. Moreover, I have also been able to learn the fundamentals of 
+                various progaramming languages such as python and JavaScript to guide my back-end developent skills.<br>
+                I have also been offering general computing solutions such as hardware repair and teaching simple computer and programming 
+                skills to primary and high school students in various schools. I moreover enrolled to a software engineering internship/course at Jenga School in Nairobi, Kenya. This has helped in 
+                my career skills to an industrial level.<br>
+                Learning new technologies facinates me and how they can be used to solve real time problems in my country and the world at 
+                large. Nevertheless, I enjoy attending coding bootcamps. It's among the motivations to why I took a career in software development.
+            </p>
+        </div>
+        <div class="pass_photo">
+
+        </div>
+    </div>
+    <!-- <hr> -->
+    <div class="skills_section" id="skills">
+        <h2>My Skills <i class="fa-solid fa-gears"></i></h2>
+        <div class="languages">
+            <div class="language" id="python">
+                <h3>PYTHON</h3>
+            </div>
+            <div class="language" id="web_dev">
+                <h3>WEB DEV</h3>
+            </div>
+            <div class="language" id="firebase">
+                <h3>FIREBASE</h3>
+            </div>
+            <div class="language" id="django">
+                <h3>DJANGO</h3>
+            </div>
+            <div class="language" id="php">
+                <h3>PHP</h3>
+            </div>
+            <div class="language" id="oop">
+                <h3>OOP</h3>
+            </div>
+            <div class="language" id="heroku">
+                <h3>HEROKU</h3>
+            </div>
+            <div class="language" id="sql">
+                <h3>SQL</h3>
+            </div>
+            <div class="language" id="git">
+                <h3>GitHub/Git</h3>
+            </div>
+        </div>
+        <div>
+            <h2>Project portfolio <i class="fa-solid fa-diagram-project"></i></h2>
+            <div class="projects">
+                <div class="project" id="pos">
+                    <a href="https://github.com/vicYegon/Point-of-Sale"><h3>POS</h3></a>
+                </div>
+                <div class="project" id="fms">
+                    <a href="https://github.com/vicYegon/finance-management-system"><h3>Finance Management System</h3></a>
+                    <p>In progress</p>
+                </div>
+                <div class="project" id="ecomm">
+                    <a href="https://github.com/vicYegon/iSokoShop"><h3>E-Commerce App</h3></a>
+                </div>
+                <div class="project" id="bie">
+                    <a href="https://github.com/vicYegon/easy-travel"><h3>Book It Early</h3></a>
+                    <p>Coming Soon</p>
+                </div>
+            </div>
+        </div>
+        <button type="submit" id="cv_btn" download><a href="./My Resume.odt">DOWNLOAD CV</a></button>
+
+    </div>
+    <div class="contact_me_section">
+        <h2>Get in touch <i class="fa-solid fa-id-card-clip"></i></h2>
+        <section class="my_contacts" id="contacts">
+            <a href="mailto:vkosgei37@gmal.com" class="contacts_link">vkosgei37@gmail.com</a>
+            <ul class="social_list">
+                <li class="social_item"><a href="https://www.linkedin.com/feed/"> <i class="fa-brands fa-linkedin"></i> LinkedIn</a></li>
+                <li class="social_item"><a href="https://twitter.com/home"> <i class="fa-brands fa-twitter"></i>  Twitter</a></li>
             </ul>
-        </div>
-    </nav>
-    <p>Hi, I am <br><span class="home_name">Victor Yegon</span></p>
-    </header>
+        </section>
+        <hr>
+        <p>Click<a href="index.html"> here <i class="fa-solid fa-arrow-up"></i></a> to return top</p>    
+    </div>
+    <footer>
+        <p>&copy vicyegon@2022 All rights reserved</p>
+    </footer>
 </body>
 </html>
