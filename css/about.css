@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(194, 193, 193);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.about-container{
+    background: #fff;
+    padding: 1rem 2rem;
+    margin: 2rem;
+    width: 1000px;
+    min-width: 500px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.3),
+                -5px -5px 10px rgba(0,0,0,0.3);
+    border-radius: 2rem;
+}
+
+.about-container h2{
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.about-container p{
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+}
+
+.aboutBtn button{
+    border-radius: 5px;
+    background: transparent;
+    /* text-align: center; */
+}
+
+.aboutBtn a{
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+    text-decoration: none;
+    padding: 5px;
+    font-weight: bold;
+    color: black;
+}
+#cv_btn{
+    background: rgb(207, 207, 207);
+}
