@@ -4,8 +4,9 @@
 }
 
 body{
-    background: lightgray;
+    background: linear-gradient(rgb(194, 193, 193), rgb(149, 228, 112));
     overflow: hidden;
+    height: 100vh;
 }
 
 .portfolio-container{

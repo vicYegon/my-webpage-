@@ -6,10 +6,11 @@
 }
 
 body{
-    background: rgb(209, 209, 209);
+    background: linear-gradient(rgb(194, 193, 193), rgb(149, 228, 112));
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100vh;
 }
 
 .contact-container{
@@ -34,7 +35,6 @@ body{
 }
 
 .contact_form{
-    /* display: block; */
     width: 90%;
     margin: 2rem auto;
     padding: 20px;
