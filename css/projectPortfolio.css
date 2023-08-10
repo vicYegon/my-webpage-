@@ -35,6 +35,7 @@ body{
 
 .project{
     height: 190px;
+    cursor: pointer;
     width: 310px;
     border: 1px solid rgba(255, 255, 255, 0.2);
     text-align: center;
@@ -61,4 +62,16 @@ footer{
     margin: 0 4.4rem;
     flex-wrap: wrap;
     padding: 1rem font2rem;
+}
+
+.footer-section{
+    cursor: pointer;
+}
+
+.footer-section li{
+    list-style: none;
+}
+
+.footer-section li a{
+    text-decoration: none;
 }
