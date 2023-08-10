@@ -4,36 +4,61 @@
 }
 
 body{
-    /* height: 100vh; */
-    /* overflow: hidden; */
     background: lightgray;
+    overflow: hidden;
 }
 
 .portfolio-container{
     height: auto;
+    /* line-height: 50px; */
+}
+
+.portfolio-container h3{
+    text-align: center;
+    line-height: 20px;
+    margin: 10px 0;
+}
+
+.portfolio-container h3:hover{
+    text-decoration: underline;
+    transition: all .4s ease-in-out;
 }
 
 .projects{
-    height: auto;
+    height: 70vh;
+    width: 90%;
     display: flex;
     margin: 20px auto;
     flex-wrap: wrap;
     justify-content: center;
-    border: 1px solid;
 }
 
 .project{
-    height: 300px;
-    width: 300px;
+    height: 190px;
+    width: 310px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
     text-align: center;
     margin: 20px 10px;
+    padding: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.5);
 }
+
+
 
 .project a img{
     height: 100px;
     width: 200px;
+    border-radius: 8px;
 }
 
+
+
 footer{
-    margin-bottom: 10px;
+    border: 1px solid;
+    display: flex;
+    line-height: 20px;
+    justify-content: space-around;
+    margin: 0 4.4rem;
+    flex-wrap: wrap;
+    padding: 1rem font2rem;
 }
