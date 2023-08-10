@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    /* height: 100vh; */
+    /* overflow: hidden; */
+    background: lightgray;
+}
+
+.portfolio-container{
+    height: auto;
+}
+
+.projects{
+    height: auto;
+    display: flex;
+    margin: 20px auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 1px solid;
+}
+
+.project{
+    height: 300px;
+    width: 300px;
+    text-align: center;
+    margin: 20px 10px;
+}
+
+.project a img{
+    height: 100px;
+    width: 200px;
+}
+
+footer{
+    margin-bottom: 10px;
+}
