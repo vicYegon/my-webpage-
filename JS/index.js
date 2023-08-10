@@ -1,5 +1,5 @@
-const homeBodyEl = document.querySelector(".home_body");
-const homeInfoEl = document.querySelectorAll(".home_info");
+const homeBodyEl = document.querySelector(".info-container");
+const homeInfoEl = document.querySelectorAll(".home-container");
 
 let currentInfo = 1;
 
