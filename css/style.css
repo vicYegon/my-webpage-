@@ -8,7 +8,7 @@
 .home_section{
     background-size: cover;
     background-position: center;    
-    background-image: url(../assets/background/computer.jpg);
+    background-image: url(../assets/background/background1\ \(5\).jpg);
     height: 100vh;
     width: 100%;
 }
@@ -35,27 +35,50 @@
     text-decoration: none;
     margin-right: 2rem;
     font-weight: 700;
-    color: #fff;
+    color: #bce40b;
     cursor: pointer;
 }
 
 .nav_list ul a:hover{
     font-size: 1.01rem;
-    color: rgba(228, 50, 38, 0.578);
+    color: rgba(255, 255, 255, 0.578);
 }
 /* hero section */
  
+.home_body{
+    display: flex;
+    justify-content: center;
+    height: 88vh;
+    align-items: center;
+}
 
+.home_info{
+    width: 600px;
+    height: 300px;
+    background: rgba(255, 255, 255, 0.2);
+    color: rgba(130, 18, 18, 0.801);
+    text-align: center;
+    font-family: cursive;
+}
+
+.home_info h2{
+    font-size: 50px;
+}
+
+.home_info p{
+    font-size: 25px;
+    font-weight: bold;
+}
 
 .socials .fa-brands{
     color: #fff;
     font-size: 39px;
-    /* margin: 40px 20px; */
+    margin: 20px;
 }
 
 .socials .fa-brands:hover{
     transition: all .3s ease;
-    color: rgba(228, 50, 38, 0.578);
+    color: #bce40b;
 }
 
 /* prev & next buttons */
