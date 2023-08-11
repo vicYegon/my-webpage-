@@ -3,3 +3,8 @@ body{
     background: linear-gradient(rgb(194, 193, 193), rgb(149, 228, 112));
     height: 100vh;
 }
+
+.services-container{
+    font-size: 20px;
+    color: white;
+}
