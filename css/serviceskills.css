@@ -49,7 +49,55 @@ body{
                 -5px -5px 10px rgba(0,0,0,.1);
 }
 
+/* skills styles */
+.skills-container{
+    margin: 20px;
+    border: 1px solid;
+    padding: 20px;
+}
 
+.skillHeader{
+    text-align: center;
+}
+
+.skillHeader h3{
+    font-size: 30px;
+    text-decoration: underline;
+    letter-spacing: 2px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.skillHeader p{
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+.languages{
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.language{
+    border: 2px solid black;
+    margin-left: 10px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.language h5{
+    text-align: center;
+}
+
+.language img{
+    width: 200px;
+    height: 100px;
+    background: transparent;
+}
 
 /* footer section */
 footer{
