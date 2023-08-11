@@ -36,7 +36,7 @@ function updateHomeInfo(){
     }
     setTimeout(()=>{
         updateHomeInfo();
-    }, 4000)
+    }, 10000)
 }
 
 

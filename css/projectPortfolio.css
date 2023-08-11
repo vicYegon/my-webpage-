@@ -4,7 +4,7 @@
 }
 
 body{
-    background: linear-gradient(rgb(194, 193, 193), rgb(149, 228, 112));
+    background: linear-gradient(rgb(194, 193, 193), rgb(112, 139, 228));
     overflow: hidden;
     height: 100vh;
 }
@@ -42,10 +42,14 @@ body{
     text-align: center;
     margin: 20px 10px;
     padding: 10px;
+    border-radius: 10px;
+    transition: all 0.3s ease-in;
     box-shadow: 0 4px 10px rgba(0,0,0,0.5);
 }
 
-
+.project:hover{
+    padding: 8px;
+}
 
 .project a img{
     height: 100px;
@@ -69,10 +73,23 @@ footer{
     cursor: pointer;
 }
 
+.footer-section #email a{
+    text-decoration: none;
+    color: black;
+}
+
+.footer-section #email a:hover{
+    color: #fff;
+}
+
 .footer-section li{
     list-style: none;
 }
 
 .footer-section li a{
     text-decoration: none;
+}
+
+.footer-section li a:hover{
+    color: #fff;
 }

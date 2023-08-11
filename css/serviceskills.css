@@ -1,10 +1,63 @@
 body{
     margin: 0;
-    background: linear-gradient(rgb(194, 193, 193), rgb(149, 228, 112));
-    height: 100vh;
+    background: linear-gradient(rgb(255, 255, 255), rgb(114, 137, 214));
+    height: 100%;
+    background-repeat: no-repeat;
 }
 
 .services-container{
     font-size: 20px;
-    color: white;
+    color: rgb(0, 0, 0);
+}
+
+.services-container h3{
+    font-size: 30px;
+    text-align: center;
+}
+
+.services-container h3:hover{
+    text-decoration: underline;
+    transition: all .3ms ease-in;
+}
+
+.service_box{
+    /* border: 1px solid black; */
+    padding: 10px;
+    margin: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.service_box img{
+    height: 170px;
+    width: 250px;
+}
+
+#service{
+    text-align: center;
+    width: 400px;
+    border: 2px solid rgba(0,0,0,.1);
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,.4),
+                -5px -5px 10px rgba(0,0,0,.4);
+}
+
+#service:hover{
+    box-shadow: 5px 5px 10px rgba(0,0,0,.1),
+                -5px -5px 10px rgba(0,0,0,.1);
+}
+
+
+
+/* footer section */
+footer{
+    border: 1px solid;
+    display: flex;
+    line-height: 20px;
+    justify-content: space-around;
+    margin: 0 4.4rem;
+    flex-wrap: wrap;
+    padding: 1rem font2rem;
 }
