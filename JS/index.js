@@ -2,13 +2,25 @@ const homeInfo = [
     {
         header1: "Hi Welcome", 
         header2: "I'm Victor Yegon",
-        paragraph1: "I'm a Software Engineer based in nairobi kenya",
+        paragraph1: "I'm a Software Engineer based in Nairobi, kenya",
+    },
+    {
+        header1: "Hi Welcome", 
+        header2: "I'm Victor Yegon",
+        paragraph1: "I'm a Software Developer based in Nairobi, Kenya",
+    },
+    {
+        header1: "Hi Welcome", 
+        header2: "I'm Victor Yegon",
+        paragraph1: "I'm a Database Manager based in Nairobi kenya",
     }
 ]
 
 const header3El = document.querySelector("h3");
 const header2El = document.querySelector("h2");
 const paragraphEl = document.querySelector("p");
+
+let idx = 0;
 
 updateHomeInfo ();
 

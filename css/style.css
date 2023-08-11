@@ -76,6 +76,7 @@
 
 .socials .fa-brands{
     color: #fff;
+    /* position: fixed; */
     font-size: 39px;
     margin: 20px;
 }
