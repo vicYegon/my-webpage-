@@ -61,6 +61,10 @@
     font-family: cursive;
 }
 
+.home_info h3{
+    font-size: 30px;
+}
+
 .home_info h2{
     font-size: 50px;
 }
