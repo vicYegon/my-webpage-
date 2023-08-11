@@ -78,7 +78,7 @@
 }
 
 .socials .fa-brands{
-    color: #fff;
+    color: rgb(79, 103, 184);
     /* position: fixed; */
     font-size: 39px;
     margin: 20px;
@@ -86,7 +86,7 @@
 
 .socials .fa-brands:hover{
     transition: all .3s ease;
-    color: rgb(24, 56, 161);
+    color: #6e6e6e;
 }
 
 /* prev & next buttons */
