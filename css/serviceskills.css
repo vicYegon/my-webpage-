@@ -3,6 +3,7 @@ body{
     background: linear-gradient(rgb(255, 255, 255), rgb(114, 137, 214));
     height: 100%;
     background-repeat: no-repeat;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .services-container{
@@ -32,6 +33,7 @@ body{
 .service_box img{
     height: 170px;
     width: 250px;
+    border-radius: 5px;
 }
 
 #service{
@@ -91,6 +93,8 @@ body{
 
 .language h5{
     text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 
 .language img{
@@ -107,5 +111,36 @@ footer{
     justify-content: space-around;
     margin: 0 4.4rem;
     flex-wrap: wrap;
-    padding: 1rem font2rem;
+    color:  rgb(53, 53, 53);
+    font-size: 20px;
+    padding: 1rem 2rem;
+    font-weight: bold;
+}
+footer h5{
+    text-align: center;
+}
+
+footer h5:hover{
+    text-decoration: underline;
+    transition: all .5s ease;
+}
+
+footer .footerSection2 ul li{
+    list-style-type: none;
+    margin: 5px;
+}
+
+footer .footerSection2 ul li:hover{
+    color: brown;
+    font-size: 21px;
+}
+
+footer .footerSection3 a{
+    text-decoration: none;
+    color: rgb(53, 53, 53);
+}
+
+footer .footerSection3 a:hover{
+    color: brown;
+    font-size: 21px;
 }
