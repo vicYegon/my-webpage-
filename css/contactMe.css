@@ -14,7 +14,7 @@ body{
 }
 
 .contact-container{
-    background: #fff;
+    background: linear-gradient(rgb(255, 255, 255), rgb(160, 175, 223));
     max-width: 80%;
     width: 800px;
     margin: 2rem;

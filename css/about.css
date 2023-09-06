@@ -15,7 +15,7 @@ body{
 }
 
 .about-container{
-    background: #dbdbdb;
+    background: linear-gradient(rgb(207, 207, 207), rgb(166, 181, 224));
     padding: 1rem 2rem;
     margin: 2rem;
     width: 1000px;
@@ -30,15 +30,19 @@ body{
     text-align: center;
 }
 
+.about-container h3:hover{
+    text-decoration: underline;
+    transition: all 0.4s linear;
+}
+
 .about_image{
     text-align: center;
     height: 250px;
-    /* width: 250px; */
 }
 
 .about_image img{
     height: 250px;
-    width: 200px;
+    width: 190px;
     border-radius: 10px;
 }
 
@@ -48,10 +52,30 @@ body{
     margin-bottom: 2rem;
 }
 
+.aboutBtn{
+    display: flex;
+    justify-content: center;
+}
+
 .aboutBtn button{
     border-radius: 5px;
     background: transparent;
-    /* text-align: center; */
+    padding: 3px 5px;
+    margin: 0 20px;
+    cursor: pointer;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.4), 
+                -5px -5px 10px rgba(0,0,0,0.4);
+    transition: all 0.3s ease-in;
+}
+
+.aboutBtn button #cv_btn:hover{
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.2), 
+                -5px -5px 10px rgba(0,0,0,0.2);
+}
+
+.aboutBtn button #hireme_btn{
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.2), 
+                -5px -5px 10px rgba(0,0,0,0.2);
 }
 
 .aboutBtn a{
@@ -61,7 +85,4 @@ body{
     padding: 5px;
     font-weight: bold;
     color: black;
-}
-#cv_btn{
-    background: rgb(207, 207, 207);
 }
