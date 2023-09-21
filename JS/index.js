@@ -1,13 +1,13 @@
 const homeInfo = [
     {
         header1: "Hi Welcome", 
-        header2: "I'm Victor",
+        header2: "I'm Victor Yegon",
         paragraph1: "I'm a Software Engineer",
         paragraph2: "based in Nairobi Kenya",
     },
     {
         header1: "Hi Welcome", 
-        header2: "I'm Yegon",
+        header2: "I'm Victor Yegon",
         paragraph1: "I'm a Software Developer",
         paragraph2: "based in Nairobi Kenya",
     },
@@ -15,6 +15,12 @@ const homeInfo = [
         header1: "Hi Welcome", 
         header2: "I'm Victor Yegon",
         paragraph1: "I'm a Database Manager",
+        paragraph2: "based in Nairobi Kenya",
+    },
+    {
+        header1: "Hi Welcome", 
+        header2: "I'm Victor Yegon",
+        paragraph1: "I'm a Software Tester",
         paragraph2: "based in Nairobi Kenya",
     }
 ]
