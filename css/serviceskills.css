@@ -131,7 +131,7 @@ footer .footerSection2 ul li{
 }
 
 footer .footerSection2 ul li:hover{
-    color: brown;
+    color: rgb(255, 255, 255);
     font-size: 21px;
 }
 

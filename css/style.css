@@ -35,14 +35,16 @@
     text-decoration: none;
     margin-right: 2rem;
     font-weight: 700;
-    color: #3229ac;
+    color: #ffffff;
     cursor: pointer;
-    transition: .4s;
-    transition-property: text-decoration;
+    transition: .2s;
+    text-decoration: none;
+    transition-property: border-bottom;
 }
 
 .nav_list ul a:hover{
-    text-decoration: underline;
+    text-decoration: none;
+    border-bottom: 3px solid #000000;
 }
 /* hero section */
  
