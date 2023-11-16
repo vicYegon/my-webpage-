@@ -58,7 +58,7 @@
 .home_info{
     width: 600px;
     height: 300px;
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(0, 0, 0, 0.4);
     color: rgba(255, 255, 255, 1);
     text-align: center;
     font-family: monospace;
@@ -82,7 +82,7 @@
 }
 
 .socials .fa-brands{
-    color: rgb(15, 65, 228);
+    /* color: rgb(15, 65, 228); */
     /* position: fixed; */
     font-size: 39px;
     margin: 20px;
