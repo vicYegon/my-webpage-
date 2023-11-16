@@ -4,14 +4,20 @@
 }
 
 body{
-    background: linear-gradient(rgb(194, 193, 193), rgb(112, 139, 228));
+    background: linear-gradient(rgb(139, 141, 135), rgb(255, 255, 255), rgb(139, 141, 135));
     overflow: hidden;
+    background-position: center;
+    background-size: cover;
     height: 100vh;
 }
 
 .portfolio-container{
     height: auto;
     /* line-height: 50px; */
+}
+
+.logo img{
+    margin-left: 20px;
 }
 
 .portfolio-container h3{
@@ -42,9 +48,11 @@ body{
     text-align: center;
     margin: 20px 10px;
     padding: 10px;
+    color: #fff;
     border-radius: 10px;
+    background: rgba(0, 0, 0, 0.5);
     transition: all 0.3s ease-in;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+    box-shadow: 0 4px 10px rgba(255,255,255,0.5);
 }
 
 .project:hover{
@@ -60,22 +68,29 @@ body{
 
 
 footer{
-    border: 1px solid;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
     display: flex;
     line-height: 20px;
     justify-content: space-around;
-    margin: 0 4.4rem;
+    margin: 20px;
     flex-wrap: wrap;
     padding: 1rem font2rem;
 }
 
 .footer-section{
     cursor: pointer;
+    color: rgb(83, 82, 82);
+}
+
+.footer-section ul li a{
+    color: rgb(83, 82, 82);
 }
 
 .footer-section #email a{
     text-decoration: none;
-    color: black;
+    color: rgb(83, 82, 82);
 }
 
 .footer-section #email a:hover{

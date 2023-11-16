@@ -1,9 +1,9 @@
 body{
     margin: 0;
-    background: linear-gradient(rgb(133, 153, 219), rgb(255, 255, 255), rgb(114, 137, 214));
+    background: linear-gradient(rgb(139, 141, 135), rgb(255, 255, 255), rgb(110, 120, 151));
     height: 100%;
     background-repeat: no-repeat;
-    font-family: 'Courier New', Courier, monospace;
+    /* font-family: 'Courier New', Courier, monospace; */
 }
 
 .services-container{
@@ -11,18 +11,21 @@ body{
     color: rgb(0, 0, 0);
 }
 
+.services-container .logo img{
+    margin-left: 20px;
+}
+
+.services-container .logo img:hover{
+    border-bottom: 1px solid rgba(0,0,0,.4);
+}
+
 .services-container h3{
     font-size: 30px;
     text-align: center;
-}
-
-.services-container h3:hover{
     text-decoration: underline;
-    transition: all .3ms ease-in;
 }
 
-.service_box{
-    /* border: 1px solid black; */
+.service_card{
     padding: 10px;
     margin: 20px;
     display: flex;
@@ -30,7 +33,7 @@ body{
     flex-wrap: wrap;
 }
 
-.service_box img{
+.service_card img{
     height: 170px;
     width: 250px;
     border-radius: 5px;
@@ -54,7 +57,7 @@ body{
 /* skills styles */
 .skills-container{
     margin: 20px;
-    border: 1px solid;
+    border: 1px solid rgba(0,0,0,.1);
     padding: 20px;
 }
 
@@ -66,7 +69,10 @@ body{
     font-size: 30px;
     text-decoration: underline;
     letter-spacing: 2px;
-    font-family: 'Courier New', Courier, monospace;
+}
+
+.services-container h3 .fa-solid{
+    margin-left: 10px;
 }
 
 .skillHeader p{
@@ -85,9 +91,8 @@ body{
 }
 
 .language{
-    border: 2px solid black;
-    margin-left: 10px;
-    padding: 10px;
+    margin: 10px 10px;
+    /* padding: 10px; */
     border-radius: 20px;
 }
 
@@ -99,48 +104,53 @@ body{
 
 .language img{
     width: 200px;
+    border-radius: 20px;
     height: 100px;
     background: transparent;
 }
 
 /* footer section */
 footer{
-    border: 1px solid;
+    border: 1px solid rgba(0,0,0,.1);
     display: flex;
     line-height: 20px;
     justify-content: space-around;
     margin: 0 4.4rem;
     flex-wrap: wrap;
     color:  rgb(53, 53, 53);
-    font-size: 20px;
+    font-size: 17px;
     padding: 1rem 2rem;
     font-weight: bold;
+    transition: all 0.4s ease-in-out;
 }
 footer h5{
     text-align: center;
+    transition: all .5s ease;
 }
 
 footer h5:hover{
     text-decoration: underline;
-    transition: all .5s ease;
+   
 }
 
 footer .footerSection2 ul li{
     list-style-type: none;
     margin: 5px;
+    transition: all .5s ease;
 }
 
 footer .footerSection2 ul li:hover{
     color: rgb(255, 255, 255);
-    font-size: 21px;
+    /* font-size: 21px; */
 }
 
 footer .footerSection3 a{
     text-decoration: none;
-    color: rgb(53, 53, 53);
+    color: rgb(70, 70, 70);
+    transition: all .5s ease;
 }
 
 footer .footerSection3 a:hover{
-    color: brown;
-    font-size: 21px;
+    color: rgb(255, 255, 255);
+    /* font-size: 17px; */
 }

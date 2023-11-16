@@ -5,47 +5,83 @@
 }
 
 body{
-    background: #fff;
+    background: url(/assets/background/background1\ \(2\).jpg);
+    background-position: center;
+    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100%;
+    /* text-align: center; */
     overflow: scroll;
     background-repeat: no-repeat;
 }
 
 .about-container{
-    background: linear-gradient(rgb(207, 207, 207), rgb(166, 181, 224));
+    background: linear-gradient(rgba(207, 207, 207, 0.7), rgba(166, 181, 224, 0.7));
     padding: 1rem 2rem;
     margin: 2rem;
-    width: 1000px;
-    min-width: 500px;
+    max-width: 1000px;
+    width: 900px;
+    border: 2px solid;
+    min-width: 400px;
     box-shadow: 5px 5px 10px rgba(0,0,0,0.3),
                 -5px -5px 10px rgba(0,0,0,0.3);
     border-radius: 2rem;
+    border-color: rgba(255, 255, 255, 0.4);
+}
+
+.logo-nav{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.socials .fa-brands{
+    margin-right: 19px;
+    font-size: 30px;
+    color: black;
+}
+
+.socials .fa-brands:hover{
+    text-decoration: underline;   
 }
 
 .about-container h3{
     font-size: 2rem;
     text-align: center;
+    margin: 10px 0;
+    transition: all 0.5s ease-in;
 }
 
 .about-container h3:hover{
     text-decoration: underline;
-    transition: all 0.4s linear;
+    
 }
 
-.about_image{
+.about_main{
+    /* display: flex; */
     text-align: center;
-    height: 250px;
 }
 
-.about_image img{
+.about_main .about_info{
+    text-align: justify;
+}
+.my_image{
+    float: left;
     height: 250px;
-    width: 190px;
-    border-radius: 10px;
+    margin-right: 20px;
+    border-radius: 20px;
+    /* width: 350; */
+    /* border-radius:100%; */
 }
 
+.about_info{
+    line-height: 27px;
+    font-size: 25px;
+    letter-spacing: 1.2px;
+
+}
 
 .about-container p{
     font-size: 1.3rem;
@@ -74,6 +110,11 @@ body{
 }
 
 .aboutBtn button #hireme_btn{
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.2), 
+                -5px -5px 10px rgba(0,0,0,0.2);
+}
+
+.aboutBtn button:hover{
     box-shadow: 5px 5px 10px rgba(0,0,0,0.2), 
                 -5px -5px 10px rgba(0,0,0,0.2);
 }

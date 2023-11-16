@@ -6,7 +6,7 @@
 }
 
 body{
-    background: linear-gradient(rgb(255, 255, 255), rgb(114, 137, 214));
+    background: linear-gradient(rgb(139, 141, 135), rgb(255, 255, 255), rgb(139, 141, 135));
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,7 +14,7 @@ body{
 }
 
 .contact-container{
-    background: linear-gradient(rgb(255, 255, 255), rgb(160, 175, 223));
+    background: linear-gradient(rgb(139, 141, 135), rgb(255, 255, 255), rgb(139, 141, 135));
     max-width: 99%;
     width: 800px;
     margin: 2rem;
@@ -38,7 +38,7 @@ body{
 
 .contact_form{
     width: 90%;
-    background: linear-gradient(rgba(255,255,255, 0.4), rgba(81, 113, 253, 0.5));
+    background: linear-gradient(rgb(119, 119, 118), rgb(255, 255, 255), rgb(139, 141, 135));
     padding-left: 10px;
     margin: 10px;
     border-radius: 10px;
@@ -86,8 +86,11 @@ body{
     border-radius: 10px;
     width: 100%;
     font-weight: bold;
+    letter-spacing: 2px;
+    
+    color: #fff;
     transition: 0.4s;
-    background: rgba(38, 56, 218, 0.7);
+    background: rgba(34, 44, 28, 0.7);
     text-transform: uppercase;
 }
 
@@ -96,10 +99,10 @@ body{
 }
 
 .myInfo{
-    background: linear-gradient(rgba(255,255,255, 0.4), rgba(81, 113, 253, 0.5));
+    background: linear-gradient(rgb(171, 172, 170), rgb(255, 255, 255), rgb(130, 131, 128));
     margin: 10px;
     max-width: 400px;
-    color: #2657c0;
+    color: #000000;
     padding: 20px;
     border-radius: 10px;
     line-height: 60px;
