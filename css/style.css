@@ -64,7 +64,7 @@
     font-family: monospace;
     border-radius: 20px;
     padding: 20px;
-    line-height: 50px;
+    line-height: 30px;
     transition: all 0.4s ease;
 }
 
@@ -81,14 +81,12 @@
     font-weight: bold;
 }
 
-.socials .fa-brands{
-    /* color: rgb(15, 65, 228); */
-    /* position: fixed; */
+.fa-brands{
     font-size: 39px;
     margin: 20px;
 }
 
-.socials .fa-brands:hover{
+.fa-brands:hover{
     transition: all .3s ease;
     color: #6e6e6e;
 }

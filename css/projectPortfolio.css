@@ -8,12 +8,8 @@ body{
     overflow: hidden;
     background-position: center;
     background-size: cover;
-    height: 100vh;
-}
-
-.portfolio-container{
     height: auto;
-    /* line-height: 50px; */
+    overflow-y: scroll;
 }
 
 .logo img{
@@ -32,7 +28,7 @@ body{
 }
 
 .projects{
-    height: 70vh;
+    /* height: 70vh; */
     width: 90%;
     display: flex;
     margin: 20px auto;
@@ -41,7 +37,7 @@ body{
 }
 
 .project{
-    height: 190px;
+    height: 180px;
     cursor: pointer;
     width: 310px;
     border: 1px solid rgba(255, 255, 255, 0.2);

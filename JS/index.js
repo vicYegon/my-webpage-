@@ -1,26 +1,32 @@
 const homeInfo = [
     {
-        header1: "Hi Welcome", 
+        header1: "Hi,  Welcome to my world", 
         header2: "I'm Victor Yegon",
-        paragraph1: "I'm a Software Engineer",
+        paragraph1: "a Software Engineer",
         paragraph2: "based in Nairobi, Kenya",
     },
     {
-        header1: "Hi Welcome", 
+        header1: "Hi,  Welcome to my world", 
         header2: "I'm Victor Yegon",
-        paragraph1: "I'm a Software Developer",
+        paragraph1: "a Fullstack Software Developer",
         paragraph2: "based in Nairobi, Kenya",
     },
     {
-        header1: "Hi Welcome", 
+        header1: "Hi,  Welcome to my world", 
         header2: "I'm Victor Yegon",
-        paragraph1: "I'm a Database Manager",
+        paragraph1: "a Database Administrator",
         paragraph2: "based in Nairobi, Kenya",
     },
     {
-        header1: "Hi Welcome", 
+        header1: "Hi,  Welcome to my world", 
         header2: "I'm Victor Yegon",
-        paragraph1: "I'm a Software Tester",
+        paragraph1: "a UI/UX Designer",
+        paragraph2: "based in Nairobi, Kenya",
+    },
+    {
+        header1: "Hi,  Welcome to my world", 
+        header2: "I'm Victor Yegon",
+        paragraph1: "a QA Tester",
         paragraph2: "based in Nairobi, Kenya",
     }
 ]
@@ -47,6 +53,6 @@ function updateHomeInfo(){
     }
     setTimeout(()=>{
         updateHomeInfo();
-    }, 10000)
+    }, 20000)
 }
 

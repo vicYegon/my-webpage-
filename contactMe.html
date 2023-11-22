@@ -4,9 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+    <!-- css link -->
     <link rel="stylesheet" href="./css/contactMe.css">
+
+    <!-- font awesome cdn -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     
+    <!-- bootstrap css cdn-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" 
+    crossorigin="anonymous">
+
     <link rel="icon" type="image/x-icon" href="./assets/my close up face pic.jpg">
 
     <title>Contact me</title>
@@ -19,23 +27,30 @@
         <h3>Get in touch <i class="fa-solid fa-id-card-clip"></i></h3>
         <section class="my_contacts" id="contacts">
             <div class="myInfo">
-                <p class="more"><i class="fa-solid fa-location-dot"></i> Nairobi, Kenya</p>
-                <p class="more"><i class="fa-solid fa-envelope"></i> vic@gmail.com</p>
-                <p class="more"><i class="fa-solid fa-phone"></i> +254 728 403 916</p>
-                <p class="more"><i class="fa-solid fa-clock"></i> Mon-Sat 10.00am - 10.00pm</p>
+                <p class="more"><i class="fa-solid fa-location-dot"></i> Nairobi, Kenya</p><hr>
+                <p class="more"><i class="fa-solid fa-envelope"></i> vkosgei37@gmail.com</p><hr>
+                <p class="more"><i class="fa-solid fa-phone"></i> +254 728 403 916</p><hr>
+                <p class="more"><i class="fa-solid fa-clock"></i> Mon-Sat 10.00am - 10.00pm</p><hr>
             </div>
-            <form class="contact_form" action="https://formsubmit.co/vkosgei37@gmail.com" method="POST" onsubmit="sendEmail()">
+            <form class="contact_form" id="contact_form">
                 <label for="Name">Name:</label>
-                <input type="text" placeholder="Enter your name" class="Name" required>
+                <input type="text" placeholder="Enter your name" class="Name" id="name" required>
                 <label for="Email">Email:</label>
-                <input type="email" placeholder="your email e.g example@gmail.com" class="Email" required>
+                <input type="email" placeholder="Your email e.g example@gmail.com" class="Email" id="email" required>
+                <label for="subject">Subject:</label>
+                <input type="text" name="subject" id="subject" placeholder="Subject">
                 <label for="message">Message:</label>
-                <textarea placeholder="How can I help?" class="message" required></textarea>
-                <button type="submit" id="submit">Send message</button>
+                <textarea placeholder="How can I help?" rows="4" class="message" id="message" required></textarea>
+                <button type="submit" id="submit">Send</button>
             </form>
            
         </section>
     </div>
-    <!-- <script src="./JS/contactMe.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    
+    <script src="./JS/contactMe.js"></script>
+
 </body>
 </html>
