@@ -7,7 +7,6 @@
 
 body{
     background: url(/assets/background/background1\ \(2\).jpg);
-    /* background: linear-gradient(rgb(139, 141, 135), rgb(255, 255, 255), rgb(139, 141, 135)); */
     background-position: center;
     background-size: cover;
     display: flex;
