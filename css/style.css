@@ -53,6 +53,7 @@
     justify-content: center;
     height: 88vh;
     align-items: center;
+    /* aspect-ratio: 16/9; */
 }
 
 .home_info{
@@ -64,6 +65,7 @@
     font-family: monospace;
     border-radius: 20px;
     padding: 20px;
+    aspect-ratio: 16/9;
     line-height: 30px;
     transition: all 0.4s ease;
 }

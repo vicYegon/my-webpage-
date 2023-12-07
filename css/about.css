@@ -29,6 +29,7 @@ body{
                 -5px -5px 10px rgba(0,0,0,0.3);
     border-radius: 2rem;
     border-color: rgba(255, 255, 255, 0.4);
+    aspect-ratio: 16/9;
 }
 
 .logo-nav{
