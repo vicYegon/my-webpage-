@@ -24,7 +24,7 @@ body{
 
 .portfolio-container h3:hover{
     text-decoration: underline;
-    transition: all .4s ease-in-out;
+    transition: all 0.2s ease;
 }
 
 .projects{
@@ -47,7 +47,7 @@ body{
     color: #fff;
     border-radius: 10px;
     background: rgba(0, 0, 0, 0.5);
-    transition: all 0.3s ease-in;
+    transition: all 0.2s ease;
     box-shadow: 0 4px 10px rgba(255,255,255,0.5);
 }
 
