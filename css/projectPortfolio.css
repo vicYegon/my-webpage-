@@ -73,7 +73,8 @@ footer{
     justify-content: space-around;
     margin: 20px;
     flex-wrap: wrap;
-    padding: 1rem font2rem;
+    gap: 10px;
+    padding: 1rem; 
 }
 
 .footer-section{

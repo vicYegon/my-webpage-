@@ -38,6 +38,14 @@ body{
     display: flex;
 }
 
+.my_contacts .myInfo .more:hover{
+    transition: all .3s linear;
+}
+
+.my_contacts .myInfo .more:hover{
+    margin-left: 4px;
+}
+
 .contact_form{
     width: 90%;
     background: linear-gradient(rgba(167, 167, 167, 0.5), rgb(139, 141, 135));
@@ -133,7 +141,7 @@ label{
     font-size: 15px;
 }
 
-@media screen and (max-width: 950px){
+@media screen and (max-width: 600px){
     .contact-container{
         flex-direction: column;
     }   
