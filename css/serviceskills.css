@@ -31,6 +31,7 @@ body{
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    gap: 20px;
 }
 
 .service_card img{
@@ -87,13 +88,18 @@ body{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-
+    gap: 10px;
 }
 
 .language{
     margin: 10px 10px;
-    /* padding: 10px; */
+    padding: 5px;
     border-radius: 20px;
+    transition: all 0.2s linear;
+}
+
+.language:hover{
+    transform: scale(1.03);
 }
 
 .language h5{
@@ -124,8 +130,8 @@ footer{
     transition: all 0.4s ease-in-out;
 }
 footer h5{
-    text-align: center;
-    transition: all .5s ease;
+    /* text-align: center; */
+    transition: all 0.5s ease;
 }
 
 footer h5:hover{
@@ -153,4 +159,61 @@ footer .footerSection3 a{
 footer .footerSection3 a:hover{
     color: rgb(255, 255, 255);
     /* font-size: 17px; */
+}
+
+p .return-top{
+    /* position: relative; */
+    margin: 5px 20px;
+    color: white;
+    text-decoration: none;
+}
+@media screen and (max-width: 600px){
+    footer{
+        border: 1px solid rgba(0,0,0,.1);
+        display: block;
+        line-height: 17px;
+        justify-content: space-around;
+        margin: 0 3.4rem;
+        flex-wrap: wrap;
+        color:  rgb(53, 53, 53);
+        font-size: 14px;
+        padding: 1rem 2rem;
+        font-weight: bold;
+        transition: all 0.4s linear;
+    }
+    
+    footer h5{
+        transition: all 0.5s ease;
+    }
+    
+    footer h5:hover{
+        text-decoration: underline;
+       
+    }
+    
+    footer .footerSection2 ul li{
+        list-style-type: none;
+        margin: 5px;
+        transition: all .5s ease;
+    }
+    
+    footer .footerSection2 ul li:hover{
+        color: rgb(255, 255, 255);
+        /* font-size: 21px; */
+    }
+    
+    footer .footerSection3 a{
+        text-decoration: none;
+        color: rgb(70, 70, 70);
+        transition: all .5s ease;
+    }
+    
+    footer .footerSection3 a:hover{
+        color: rgb(255, 255, 255);
+    }
+    p .return-top{
+        margin: 5px 20px;
+        color: white;
+        text-decoration: none;
+    }
 }
