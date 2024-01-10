@@ -37,22 +37,21 @@ body{
 }
 
 .project{
-    height: 180px;
+    height: 190px;
     cursor: pointer;
-    width: 310px;
+    width: auto;
     border: 1px solid rgba(255, 255, 255, 0.2);
     text-align: center;
     margin: 20px 10px;
     padding: 10px;
     color: #fff;
-    border-radius: 10px;
+    border-radius: 5px;
     background: rgba(0, 0, 0, 0.5);
     transition: all 0.3s linear;
     box-shadow: 0 4px 10px rgba(255,255,255,0.5);
 }
 
 .project:hover{
-    /* padding: 8px; */
     transform: scale(1.03);
 }
 
@@ -62,8 +61,7 @@ body{
     border-radius: 8px;
 }
 
-
-
+/* footer section */
 footer{
     border-top: 1px solid rgba(255, 255, 255, 0.2);
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
@@ -73,6 +71,7 @@ footer{
     justify-content: space-around;
     margin: 20px;
     flex-wrap: wrap;
+    font-weight: bold;
     gap: 10px;
     padding: 1rem; 
 }
@@ -105,4 +104,8 @@ footer{
 
 .footer-section li a:hover{
     color: #fff;
+}
+
+@media screen and (max-width:550px){
+    
 }
