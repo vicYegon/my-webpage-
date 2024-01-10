@@ -26,6 +26,7 @@ body{
 }
 
 .service_card{
+    background: linear-gradient(rgb(139, 141, 135), rgb(103, 125, 187), lightgray);
     padding: 10px;
     margin: 20px;
     display: flex;
@@ -42,6 +43,7 @@ body{
 
 #service{
     text-align: center;
+    background-color: white;
     width: 400px;
     border: 2px solid rgba(0,0,0,.1);
     padding: 10px;
