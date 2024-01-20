@@ -3,7 +3,6 @@ body{
     background: linear-gradient(rgb(139, 141, 135), rgb(255, 255, 255), rgb(110, 120, 151));
     height: 100%;
     background-repeat: no-repeat;
-    /* font-family: 'Courier New', Courier, monospace; */
 }
 
 .services-container{
@@ -57,66 +56,6 @@ body{
                 -5px -5px 10px rgba(0,0,0,.1);
 }
 
-/* skills styles */
-.skills-container{
-    margin: 20px;
-    border: 1px solid rgba(0,0,0,.1);
-    padding: 20px;
-}
-
-.skillHeader{
-    text-align: center;
-}
-
-.skillHeader h3{
-    font-size: 30px;
-    text-decoration: underline;
-    letter-spacing: 2px;
-}
-
-.services-container h3 .fa-solid{
-    margin-left: 10px;
-}
-
-.skillHeader p{
-    font-size: 20px;
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: bold;
-}
-
-.languages{
-    margin: 20px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 10px;
-}
-
-.language{
-    margin: 10px 10px;
-    padding: 5px;
-    border-radius: 20px;
-    transition: all 0.2s linear;
-}
-
-.language:hover{
-    transform: scale(1.03);
-}
-
-.language h5{
-    text-align: center;
-    text-transform: uppercase;
-    font-weight: bold;
-}
-
-.language img{
-    width: 200px;
-    border-radius: 20px;
-    height: 100px;
-    background: transparent;
-}
-
 /* footer section */
 footer{
     border: 1px solid rgba(0,0,0,.1);
@@ -149,7 +88,6 @@ footer .footerSection2 ul li{
 
 footer .footerSection2 ul li:hover{
     color: rgb(255, 255, 255);
-    /* font-size: 21px; */
 }
 
 footer .footerSection3 a{
@@ -160,15 +98,15 @@ footer .footerSection3 a{
 
 footer .footerSection3 a:hover{
     color: rgb(255, 255, 255);
-    /* font-size: 17px; */
 }
 
 p .return-top{
-    /* position: relative; */
     margin: 5px 20px;
-    color: white;
+    color: rgb(0, 0, 0);
     text-decoration: none;
+    cursor: pointer;
 }
+
 @media screen and (max-width: 600px){
     footer{
         border: 1px solid rgba(0,0,0,.1);
@@ -212,10 +150,5 @@ p .return-top{
     
     footer .footerSection3 a:hover{
         color: rgb(255, 255, 255);
-    }
-    p .return-top{
-        margin: 5px 20px;
-        color: white;
-        text-decoration: none;
     }
 }
