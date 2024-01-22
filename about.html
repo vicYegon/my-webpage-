@@ -13,68 +13,85 @@
 </head>
 <body>
     <!-- start of about me section -->
-    <div class="about-container">
-        <div class="logo-nav">
-            <a class="logo" href="./index.html">
-                <img src="./assets/images/mraiya_logo.svg" alt="">
-            </a>
+    <nav class="navbar">
+        <!-- logo name -->
+        <div class="logo">
+            <a href="./index.html">Vick</a>
+        </div>
+        <!-- navigation links -->
+        <div class="nav_list">
+            <ul>
+                <li><a href="./index.html" class="nav_link">HOME</a></li>
+                <li><a href="#" class="nav_link">ABOUT ME</a></li>
+                <li><a href="./projectPortfolio.html" class="nav_link">PROJECT PORTFOLIO</a></li>
+                <li><a href="./contactMe.html" class="nav_link">CONTACT ME</a></li>
+                <li><a href="#" class="nav_link">BLOGS</a></li>
+            </ul>
+        </div>
+    
+    </nav>
+    <div class="aboutHome">
+        <div class="about-container"> 
+            <h3>About Me <i class="fa-solid fa-address-card"></i></h3>   
+            <hr>
             <div class="socials">
                 <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
                 <a href=""><i class="fa-brands fa-square-github"></i></a>
                 <a href=""><i class="fa-brands fa-square-facebook"></i></a>
                 <a href=""><i class="fa-brands fa-x-twitter"></i></a>
             </div>
-        </div>
-        <hr>
-        <h3>About Me <i class="fa-solid fa-address-card"></i></h3>
-        <section class="about_main">
-            <img class="my_image" src="./assets/images/My pic1.jpg" alt="">
-            
-            <p class="about_info">
-                I'm <b>Victor Kipkosgei</b>, a versatile software engineer 
-                and full-stack developer with a strong foundation in 
-                both frontend and backend development. Armed with a Bachelor's 
-                degree in Computer Science and recent Software Engineering 
-                training at Jenga School, I am certified as a Fullstack Developer 
-                and currently pursuing AWS Associate Training and QA Tester Training. 
-                In my most recent role as a Fullstack Software Engineer Intern at Jenga School, 
-                I excelled in coding tasks and software designs, while my prior experience 
-                at Aviid Finance involved impactful contributions to web development 
-                and bug resolution. Proficient in React, .NET Frameworks, Python, and more, 
-                I bring a holistic skill set to the table, complemented by expertise in 
-                manual and automated testing tools like Selenium WebDriver. 
-                Check out my GitHub and LinkedIn profiles for a closer look at my projects 
-                and connect with me to explore collaboration opportunities in 
-                challenging software development or engineering projects.
-            </p>
-            <div class="skills">
-                <p>My expertise and skills revolve majorly around the following technologies:-</p>
-                <div class="btns">
-                    <button class=".skillsBtn">Python</button>
-                    <button class=".skillsBtn">C#</button>
-                    <button class=".skillsBtn">JavaScript</button>
-                    <button class=".skillsBtn">Figma</button>
-                    <button class=".skillsBtn">SQL</button>
-                    <button class=".skillsBtn">Django</button>
-                    <button class=".skillsBtn">.NET</button>
-                    <button class=".skillsBtn">Firebase</button>
-                    <button class=".skillsBtn">Django</button>
-                    <button class=".skillsBtn">Django Rest Framework</button>
-                    <button class=".skillsBtn">React</button>
-                    <button class=".skillsBtn">NodeJs</button>
-                    <button class=".skillsBtn">Git/GitHub</button>
-                    <button class=".skillsBtn">MYSQL</button>
-                    <button class=".skillsBtn">POSTGRESQL</button>
-                    <button class=".skillsBtn">ASP.NET</button>
-                    <button class=".skillsBtn">React Native</button>
+
+            <section class="about_main">
+                <img class="my_image" src="./assets/images/My pic1.jpg" alt="">
+                
+                <div class="about_info">
+                    <li>I'm a versatile <b>software engineer</b> 
+                        and <b>fullstack developer</b> with a strong foundation in 
+                        both frontend and backend development</li>
+                     
+                    <li>Armed with skills from Computer Science and Software Engineering Classes, I am certified 
+                        as a <b>fullstack software developer</b> and currently pursuing AWS Associate Training and QA Tester Training.</li> 
+                    <li>Proficient in JavaScript ( REACT, REACT NATIVE ), C# .NET Frameworks (ASP.NET), Python frameworks ( Django )</li> 
+                    <li>I bring a holistic skill set to the table, complemented by expertise in 
+                        manual and automated testing.</li> 
+                    <p>Check out my <span>GitHub</span> and <span>LinkedIn</span> profiles for a closer look at my projects 
+                        and connect with me. This will enable collaboration opportunities in 
+                        challenging software development or engineering projects.</p>
                 </div>
+                <div class="skills">
+                    <p>My <strong>expertise</strong> and <strong>skills</strong> revolve around the following technologies:-</p>
+                    <div class="btns">
+                        <button class="skillsBtn"><i class="fa-brands fa-python"></i> Python</button>
+                        <button class="skillsBtn"><i class="fa-solid fa-code"></i> C#</button>
+                        <button class="skillsBtn"><i class="fa-brands fa-js"></i> JavaScript</button>
+                        <button class="skillsBtn"><i class="fa-brands fa-figma"></i> Figma</button>
+                        <button class="skillsBtn"><i class="fa-solid fa-database"></i> SQL</button>
+                        <button class="skillsBtn"><i class="fa-solid fa-code"></i> Django</button>
+                        <button class="skillsBtn"><i class="fa-solid fa-code"></i> .NET</button>
+                        <button class="skillsBtn"><i class="fa-brands fa-git-alt"></i> Firebase</button>
+                        <button class="skillsBtn"><i class="fa-solid fa-code"></i> Django</button>
+                        <button class="skillsBtn"><i class="fa-solid fa-code"></i> Django Rest Framework</button>
+                        <button class="skillsBtn"><i class="fa-brands fa-react"></i> React</button>
+                        <button class="skillsBtn"><i class="fa-brands fa-node"></i> NodeJs</button>
+                        <button class="skillsBtn"><i class="fa-brands fa-git-alt"></i> Git/GitHub</button>
+                        <button class="skillsBtn"><i class="fa-solid fa-database"></i> MYSQL</button>
+                        <button class="skillsBtn"><i class="fa-solid fa-database"></i> POSTGRESQL</button>
+                        <button class="skillsBtn"><i class="fa-solid fa-code"></i> ASP.NET</button>
+                        <button class="skillsBtn"><i class="fa-solid fa-code"></i> React Native</button>
+                        <button class="skillsBtn"><i class="fa-brands fa-git-alt"></i> VS CODE</button>
+                        <button class="skillsBtn"><i class="fa-brands fa-html5"></i> HTML</button>
+                        <button class="skillsBtn"><i class="fa-brands fa-css3-alt"></i> CSS</button>
+
+                    </div>
+                </div>
+            </section>
+            
+            <div class="aboutBtn">
+                <button class="resumeBtn" download><a id="cv_btn" href="#">Resume</a></button>
             </div>
-        </section>
-        
-        <div class="aboutBtn">
-            <button class="resumeBtn" download><a id="cv_btn" href="#">Resume</a></button>
         </div>
     </div>
+    
     <div class="aboutMe-photo">
 
     </div>

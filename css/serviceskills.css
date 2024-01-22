@@ -1,31 +1,77 @@
 body{
     margin: 0;
-    background: linear-gradient(rgb(139, 141, 135), rgb(255, 255, 255), rgb(110, 120, 151));
-    height: 100%;
-    background-repeat: no-repeat;
+    background: white;
+    height: 100vh;
+    overflow: scroll;
 }
 
 .services-container{
-    font-size: 20px;
     color: rgb(0, 0, 0);
 }
 
-.services-container .logo img{
+.services-container .logo{
     margin-left: 20px;
+    font-size: 25px;
+    padding: 5px 10px;
+    cursor: pointer;
 }
 
-.services-container .logo img:hover{
-    border-bottom: 1px solid rgba(0,0,0,.4);
+.services-container .logo a{
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: rgba(65, 115, 223, 0.7);
+    transition: all .3s ease;
 }
+
+.services-container .logo:hover{
+    transform: scale(1.1);
+}
+
+.navbar{
+    background: rgba(0,0,0,.4);
+    position: fixed;
+}
+
+.nav_list ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.nav_list ul a{
+    text-decoration: none;
+    margin-right: 2rem;
+    font-weight: 400;
+    color: #cfcfcf;
+    cursor: pointer;
+    transition: all .3s ease;
+    text-decoration: none;
+    transition-property: border-bottom;
+}
+
+.nav_list ul a:hover{
+    text-decoration: none;
+    border-bottom: 3px solid #000000;
+}
+
 
 .services-container h3{
-    font-size: 30px;
+    font-size: 14px;
     text-align: center;
-    text-decoration: underline;
+    background: rgba(45, 86, 175, 0.3);
+    padding: 20px 0;
+    text-transform: uppercase;
+    color: #3d3d3d;
 }
 
-.service_card{
-    background: linear-gradient(rgb(139, 141, 135), rgb(103, 125, 187), lightgray);
+.services-container h3 span{
+    background: rgba(255,255,255,.4);
+    border-radius: 20px;
+    padding: 2px 10px;
+}
+
+.service_row{
     padding: 10px;
     margin: 20px;
     display: flex;
@@ -34,7 +80,7 @@ body{
     gap: 20px;
 }
 
-.service_card img{
+.service_row img{
     height: 170px;
     width: 250px;
     border-radius: 5px;

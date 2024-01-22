@@ -4,7 +4,6 @@
     box-sizing: border-box;
     overflow: hidden;
 }
-
 .home_section{
     background-size: cover;
     background-position: top;    
@@ -17,19 +16,22 @@
     background: rgba(48, 43, 33, 0.2);
     display: flex;
     justify-content: space-between;
-    padding: 1.5rem 2rem;
+    padding: 1rem 2rem;
     align-items: center;
 }
 
 .logo{
     cursor: pointer;
+    font-size: 25px;
+    font-weight: 300;
+    text-transform: uppercase;
 }
 
-.logo:hover{
-    background: rgba(255, 255, 255, 0.1);
-    border-radius: 20px;
-    border: none;
-    width: fit-content;
+.logo a{
+    text-decoration: none;
+    letter-spacing: 2px;
+    padding: 5px 10px;
+    color: rgb(80, 108, 202);
 }
 
 .nav_list ul{
@@ -41,10 +43,10 @@
 .nav_list ul a{
     text-decoration: none;
     margin-right: 2rem;
-    font-weight: 700;
+    font-weight: 400;
     color: #ffffff;
     cursor: pointer;
-    transition: .2s;
+    transition: all .3s ease;
     text-decoration: none;
     transition-property: border-bottom;
 }
