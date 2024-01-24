@@ -1,37 +1,37 @@
 const homeInfo = [
     {
-        header1: "Hi,  Welcome to my world", 
+        // header1: "Hi,", 
         header2: "I'm Victor Yegon",
         paragraph1: "a Software Engineer",
         paragraph2: "based in Nairobi, Kenya",
     },
     {
-        header1: "Hi,  Welcome to my world", 
+        // header1: "", 
         header2: "I'm Victor Yegon",
         paragraph1: "a Fullstack Software Developer",
         paragraph2: "based in Nairobi, Kenya",
     },
     {
-        header1: "Hi,  Welcome to my world", 
+        // header1: "Hi,  Welcome to my world", 
         header2: "I'm Victor Yegon",
         paragraph1: "a Database Administrator",
         paragraph2: "based in Nairobi, Kenya",
     },
     {
-        header1: "Hi,  Welcome to my world", 
+        // header1: "Hi,  Welcome to my world", 
         header2: "I'm Victor Yegon",
         paragraph1: "a UI/UX Designer",
         paragraph2: "based in Nairobi, Kenya",
     },
     {
-        header1: "Hi,  Welcome to my world", 
+        // header1: "Hi,  Welcome to my world", 
         header2: "I'm Victor Yegon",
         paragraph1: "a QA Tester",
         paragraph2: "based in Nairobi, Kenya",
     }
 ]
 
-const header3El = document.querySelector("h3");
+// const header3El = document.querySelector("h3");
 const header2El = document.querySelector("h2");
 const paragraph1El = document.querySelector(".pc1");
 const paragraph2El = document.querySelector(".pc2");
