@@ -10,25 +10,61 @@ body{
     background-position: center;
     background-size: cover;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
 }
 
+nav{
+    display: flex;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    justify-content: space-between;
+    padding: 10px;
+    background: rgba(78, 78, 179, 0.3);
+    font-size: 25px;
+}
+
+nav .logo{
+    color: rgb(54, 54, 185);
+    margin: 0 20px;
+}
+
+nav .logo a{
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav .nav_list ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+nav .nav_list ul li{
+    list-style: none;
+    margin: 0 10px;
+}
+
+nav .nav_list ul a{
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+}
+
 .contact-container{
-    background: linear-gradient(rgba(139, 141, 135, .6), rgb(255, 255, 255, .6), rgba(139, 141, 135,.6));
+    background: rgba(115, 115, 158, 0.4);
     max-width: 99%;
-    width: 800px;
+    width: 70%;
     margin: 2rem;
     height: auto;
-    box-shadow: 5px 5px 10px rgba(160, 160, 160, .3),
-                -5px -5px 10px rgba(160, 160, 160, .3);
     border-radius: 1rem;
 }
 
 .contact-container h3{
     text-align: center;
-    /* margin-top: 1.4rem; */
     font-weight: bold;
     text-decoration: underline;
 }
@@ -48,7 +84,7 @@ body{
 
 .contact_form{
     width: 90%;
-    background: linear-gradient(rgba(167, 167, 167, 0.5), rgb(139, 141, 135));
+    background: linear-gradient(rgba(167, 167, 167, 0.3), rgba(139, 141, 135,0.3));
     padding-left: 10px;
     margin: 10px;
     border-radius: 10px;
@@ -64,7 +100,7 @@ input{
     margin-bottom: 20px;
     border: none;
     font-size: 13px;
-    caret-color: grey;
+    caret-color: rgb(15, 15, 15);
     font-family: 'Courier New', Courier, monospace;
 }
 
@@ -78,7 +114,7 @@ input::placeholder{
 }
 
 textarea{
-    caret-color: grey;
+    caret-color: rgb(32, 32, 32);
 }
 
 textarea:focus{
@@ -117,7 +153,6 @@ label{
     color: #fff;
     transition: background 0.4s;
     background: rgba(131, 131, 131, 0.7);
-    /* text-transform: uppercase; */
 }
 
 #submit:hover{

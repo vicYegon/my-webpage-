@@ -2,100 +2,184 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <!-- styles link -->
-    <link rel="stylesheet" href="./css/serviceskills.css">
-    <!-- font-awesome cdn -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <!-- bootstrap styles cdn -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" 
-    rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" 
-    crossorigin="anonymous">
 
-    <!-- favicon -->
-    <link rel="icon" type="image/x-icon" href="./assets/my close up face pic.jpg">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/serviceskills.css">
     
-    <title>Services/skills</title>
+    <title>services</title>
 </head>
 <body>
-    
-    <!-- start of service-skills section -->
-
-    <div class="services-container">
-        <nav class="navbar">
-            <div class="logo">
-                <a href="./index.html">Vick</a>
-            </div>
-
-            <div class="nav_list">
-                <ul>
-                    <li><a href="./index.html" class="nav_link">HOME</a></li>
-                    <li><a href="./about.html" class="nav_link">ABOUT ME</a></li>
-                    <li><a href="./projectPortfolio.html" class="nav_link">PROJECT PORTFOLIO</a></li>
-                    <li><a href="./contactMe.html" class="nav_link">CONTACT ME</a></li>
-                    <li><a href="#" class="nav_link">BLOGS</a></li>
-                </ul>
-            </div>
-        </nav>
-
-        <h3><span>Vick</span> / Services <i class="fa-solid fa-laptop-file"></i></h3>
-        <div class="service_row">
-            <div class="web_design" id="service">
-                <h4>Web Design</h4>
-                <img src="./assets/services portfolio/web design.jpg" alt="image_here">
-                <p>I develop both static and dynamic websites from scratch and moreover offer maintainance services.</p>
-            </div>
-            <div class="software_dev" id="service">
-                <h4>Software Development</h4>
-                <img src="./assets/services portfolio/software development.jpg" alt="image_here">
-                <p>My career is well versed into software development and engineering, thus, I develop both web and mobile application 
-                    depending on the client and app specifications.
-                </p>
-            </div>
-            <div class="programming_coach" id="service">
-                <h4>Programming Coaching</h4>
-                <img src="./assets/services portfolio/programing coach.jpg" alt="image_here" >
-                <p>I have went further to offer coding as a service to those who are ready to learn and experience a whole new world of programming.</p>
-            </div>
+    <nav>
+        <div class="logo">
+            <a href="#">
+                Vick
+            </a>
         </div>
 
-        <hr class="horizontal-line">
-    </div>
-
-<!-- --------------------------------------------------------------------------- -->
-
-    <!-- start of footer section -->
-    <footer>
-        <div class="footerSection1">
-            <h5>Contacts</h5>
-            <p><i class="fa-solid fa-phone"></i> Phone no: +254 728 403 916</p>
-            <p><i class="fa-solid fa-location-dot"></i> Nairobi, Kenya</p>
-        </div>
-        <div class="footerSection2">
-            <h5>Socials</h5>
+        <div class="nav_list">
             <ul>
-                <li><i class="fa-brands fa-linkedin"></i> LinkedIn</li>
-                <li><i class="fa-brands fa-facebook"></i> Facebook</li>
-                <li><i class="fa-brands fa-square-x-twitter"></i> Twitter</li>
-                <li><i class="fa-brands fa-square-instagram"></i> Instagram</li>
+                <li><a href="./index.html" class="nav_link">HOME</a></li>
+                <li><a href="./about.html" class="nav_link">ABOUT ME</a></li>
+                <li><a href="#" class="nav_link">PROJECT PORTFOLIO</a></li>
+                <li><a href="./contactMe.html" class="nav_link">CONTACT ME</a></li>
+                <li><a href="#" class="nav_link">BLOGS</a></li>
             </ul>
         </div>
-        <div class="footerSection3">
-            <h5>Get in touch</h5>
-            <div>
-                <a href="mailto:vkosgei37@gmail.com"><i class="fa-solid fa-envelope"></i> vkosgei37@gmail.com</a>
-            </div>
-            <p>&copy;vicyegon@2022. All rights reserved</p>
-        </div>
-    </footer>
-    
-    <p><a href="serviceskills.html" class="return-top">return top <i class="fa-solid fa-arrow-up"></i></a></p>
+    </nav>
+    <section>
 
-    <!-- bootstrap js cdn -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <div class="swiper container">
+            <div class="swiper-wrapper content">
+                <div class="swiper-slide card" style="width: 300px;">
+                    <div class="card-content">
+                        <div class="image">
+                            <img src="./assets/services portfolio/image1.jpg" alt="">
+                        </div>
+                        <div class="info">
+                            <h2>Web design</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et iure saepe sed eligendi. Id, harum.</p>
+                        </div>
+                        <button class="hireMeBtn">Hire me</button>
+                    </div>
+                </div>
+                <div class="swiper-slide card" style="width: 300px;">
+                    <div class="card-content">
+                        <div class="image">
+                            <img src="./assets/services portfolio/image2.jpg" alt="">
+                        </div>
+                        <div class="info">
+                            <h2>Service title</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et iure saepe sed eligendi. Id, harum.</p>
+                        </div>
+                        <button class="hireMeBtn">Hire me</button>
+                    </div>
+                </div>
+                <div class="swiper-slide card" style="width: 300px;">
+                    <div class="card-content">
+                        <div class="image">
+                            <img src="./assets/services portfolio/image3.jpg" alt="">
+                        </div>
+                        <div class="info">
+                            <h2>Service title</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et iure saepe sed eligendi. Id, harum.</p>
+                        </div>
+                        <button class="hireMeBtn">Hire me</button>
+                    </div>
+                </div>
+                <div class="swiper-slide card" style="width: 300px;">
+                    <div class="card-content">
+                        <div class="image">
+                            <img src="./assets/services portfolio/image4.PNG" alt="">
+                        </div>
+                        <div class="info">
+                            <h2>Service title</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et iure saepe sed eligendi. Id, harum.</p>
+                        </div>
+                        <button class="hireMeBtn">Hire me</button>
+                    </div>
+                </div>
+                <div class="swiper-slide card" style="width: 300px;">
+                    <div class="card-content">
+                        <div class="image">
+                            <img src="./assets/services portfolio/image5.jpg" alt="">
+                        </div>
+                        <div class="info">
+                            <h2>Service title</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et iure saepe sed eligendi. Id, harum.</p>
+                        </div>
+                        <button class="hireMeBtn">Hire me</button>
+                    </div>
+                </div>
+                <div class="swiper-slide card" style="width: 300px;">
+                    <div class="card-content">
+                        <div class="image">
+                            <img src="./assets/services portfolio/image6.jpg" alt="">
+                        </div>
+                        <div class="info">
+                            <h2>Service title</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et iure saepe sed eligendi. Id, harum.</p>
+                        </div>
+                        <button class="hireMeBtn">Hire me</button>
+                    </div>
+                </div>
+                <div class="swiper-slide card" style="width: 300px;">
+                    <div class="card-content">
+                        <div class="image">
+                            <img src="./assets/services portfolio/image7.jpg" alt="">
+                        </div>
+                        <div class="info">
+                            <h2>Service title</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et iure saepe sed eligendi. Id, harum.</p>
+                        </div>
+                        <button class="hireMeBtn">Hire me</button>
+                    </div>
+                </div>
+                <div class="swiper-slide card" style="width: 300px;">
+                    <div class="card-content">
+                        <div class="image">
+                            <img src="./assets/services portfolio/image8.jpg" alt="">
+                        </div>
+                        <div class="info">
+                            <h2>Service title</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et iure saepe sed eligendi. Id, harum.</p>
+                        </div>
+                        <button class="hireMeBtn">Hire me</button>
+                    </div>
+                </div>
+                <div class="swiper-slide card" style="width: 300px;">
+                    <div class="card-content">
+                        <div class="image">
+                            <img src="./assets/services portfolio/image9.jpg" alt="">
+                        </div>
+                        <div class="info">
+                            <h2>Service title</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et iure saepe sed eligendi. Id, harum.</p>
+                        </div>
+                        <button class="hireMeBtn">Hire me</button>
+                    </div>
+                </div>
+                <div class="swiper-slide card" style="width: 300px;">
+                    <div class="card-content">
+                        <div class="image">
+                            <img src="./assets/services portfolio/image10.webp" alt="">
+                        </div>
+                        <div class="info">
+                            <h2>Service title</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et iure saepe sed eligendi. Id, harum.</p>
+                        </div>
+                        <button class="hireMeBtn">Hire me</button>
+                    </div>
+                </div>
+                <div class="swiper-slide card" style="width: 300px;">
+                    <div class="card-content">
+                        <div class="image">
+                            <img src="./assets/services portfolio/image11.png" alt="">
+                        </div>
+                        <div class="info">
+                            <h2>Service title</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et iure saepe sed eligendi. Id, harum.</p>
+                        </div>
+                        <button class="hireMeBtn">Hire me</button>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+    </section>
     
+    
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- JS -->
     <script src="./JS/serviceskills.js"></script>
+
 </body>
 </html>
