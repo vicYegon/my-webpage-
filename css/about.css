@@ -69,12 +69,10 @@ body{
     background: rgba(99, 125, 196, 0.521);
     padding: 1rem 2rem;
     margin: 2rem;
-    /* position: absolute; */
-    /* top: 50%; */
+    font-weight: bold;
     max-width: 90%;
     margin-top: 8.7%;
     width: 80%;
-    /* text-align: center; */
     border-radius: 20px;
 }
 
