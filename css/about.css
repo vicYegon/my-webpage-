@@ -5,7 +5,7 @@
 }
 
 body{
-    background: url(/assets/background/background1\ \(2\).jpg);
+    background: gray;
     background-position: center;
     background-size: cover;
     height: 100vh;
@@ -33,7 +33,7 @@ body{
     text-decoration: none;
     letter-spacing: 2px;
     padding: 5px 10px;
-    color: rgb(80, 108, 202);
+    color: rgb(126, 146, 211);
     text-transform: uppercase;
 }
 .nav_list ul{
@@ -47,7 +47,7 @@ body{
     text-decoration: none;
     margin-right: 2rem;
     font-weight: 400;
-    color: #ffffff;
+    color: rgb(126, 146, 211);
     cursor: pointer;
     transition: all .3s ease;
     text-decoration: none;
@@ -66,12 +66,13 @@ body{
 }
 
 .about-container{
-    background: rgba(99, 125, 196, 0.9);
+    background: rgba(99, 125, 196, 0.521);
     padding: 1rem 2rem;
     margin: 2rem;
-    position: absolute;
-    top: 50%;
+    /* position: absolute; */
+    /* top: 50%; */
     max-width: 90%;
+    margin-top: 8.7%;
     width: 80%;
     /* text-align: center; */
     border-radius: 20px;
