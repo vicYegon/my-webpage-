@@ -81,6 +81,7 @@
     letter-spacing: 2px;
     word-spacing: 3px;
     padding: 20px;
+    z-index: 10;
     margin: 0 auto;
     transition: all 0.4s ease;
 }
