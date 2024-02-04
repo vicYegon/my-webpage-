@@ -64,7 +64,7 @@ nav .nav_list ul a{
 }
 
 .contact-container{
-    background: rgba(115, 115, 158, 0.4);
+    background: gray;
     max-width: 99%;
     width: 70%;
     margin: 2rem;
@@ -95,7 +95,7 @@ nav .nav_list ul a{
 
 .contact_form{
     width: 90%;
-    background: linear-gradient(rgba(167, 167, 167, 0.3), rgba(139, 141, 135,0.3));
+    background: gray;
     padding-left: 10px;
     margin: 10px;
     border-radius: 10px;
@@ -115,31 +115,23 @@ input{
     font-family: 'Courier New', Courier, monospace;
 }
 
-input:focus{
-    outline: none;
-}
-
 input::placeholder{
     font-size: 13px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Arial;
 }
 
 textarea{
     caret-color: rgb(32, 32, 32);
 }
 
-textarea:focus{
-    outline: none;
-}
-
 textarea::placeholder{
     font-size: 15px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Arial;
 }
 
 label{
     font-size: 15px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Arial;
 }
 
 
@@ -162,13 +154,14 @@ label{
     border-radius: 10px;
     letter-spacing: 2px;
     color: #fff;
-    transition: background 0.4s;
+    transition: all 0.3s linear;
     background: rgba(131, 131, 131, 0.7);
 }
 
 #submit:hover{
     background: linear-gradient(rgba(167, 167, 167, 0.5), rgb(139, 141, 135));
     color: #000000;
+    transform: scale(1.1);
 }
 
 .myInfo{
