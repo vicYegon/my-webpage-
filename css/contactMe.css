@@ -6,7 +6,7 @@
 }
 
 body{
-    background: rgba(104, 104, 104, 0.658);
+    background: gray;
     background-position: center;
     background-size: cover;
     display: flex;
@@ -23,19 +23,23 @@ nav{
     top: 0;
     left: 0;
     justify-content: space-between;
-    padding: 10px;
-    background: rgba(78, 78, 179, 0.3);
+    padding: 5px;
+    background: rgba(48, 43, 33, 0.2);
     font-size: 25px;
 }
 
-nav .logo{
-    color: rgba(54, 54, 185, 0.603);
+.logo{
     margin: 0 20px;
 }
 
-nav .logo a{
+.logo a{
     text-decoration: none;
+    letter-spacing: 2px;
+    font-weight: 200;
+    font-size: 25px;
     text-transform: uppercase;
+    padding: 5px 10px;
+    color: rgb(80, 108, 202);
 }
 
 nav .nav_list ul{
@@ -50,8 +54,13 @@ nav .nav_list ul li{
 
 nav .nav_list ul a{
     text-decoration: none;
-    color: black;
+    color: rgb(80, 108, 202);
     font-size: 17px;
+    transition: all .3s linear;
+}
+
+.nav_list ul a:hover{
+    color: rgb(126, 146, 211);
 }
 
 .contact-container{

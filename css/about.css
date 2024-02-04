@@ -32,6 +32,7 @@ body{
 .logo a{
     text-decoration: none;
     letter-spacing: 2px;
+    font-family: Arial;
     padding: 5px 10px;
     color: rgb(126, 146, 211);
     text-transform: uppercase;
@@ -47,16 +48,16 @@ body{
     text-decoration: none;
     margin-right: 2rem;
     font-weight: 400;
-    color: rgb(126, 146, 211);
+    color: rgb(255, 255, 255);
     cursor: pointer;
-    transition: all .3s ease;
+    font-family: Arial;
+    transition: all 0.3s linear;
     text-decoration: none;
-    transition-property: border-bottom;
 }
 
 .nav_list ul a:hover{
     text-decoration: none;
-    border-bottom: 3px solid #000000;
+    color: rgb(126, 146, 211);
 }
 
 .aboutHome{
@@ -66,12 +67,13 @@ body{
 }
 
 .about-container{
-    background: rgba(99, 125, 196, 0.521);
+    background: rgba(0, 0, 0, 0.4);
     padding: 1rem 2rem;
     margin: 2rem;
     font-weight: bold;
     max-width: 90%;
     margin-top: 8.7%;
+    font-family: Arial;
     width: 80%;
     border-radius: 20px;
 }
@@ -83,7 +85,7 @@ body{
 .socials .fa-brands{
     margin: 19px 10px;
     font-size: 20px;
-    color: rgb(87, 87, 87);
+    color: rgb(126, 146, 211);
     transition: all .3s linear;
 }
 
@@ -117,12 +119,11 @@ body{
 .about_info li{
     list-style-position: inside;
     font-size: 20px;
-    /* list-style-image: url(../assets/images/MyPic2.jpeg); */
 }
 
 .about_info p{
     font-size: 20px;
-    color: rgb(65, 65, 65);
+    color: rgb(126, 146, 211);
 }
 
 .about_info p span{
@@ -137,6 +138,7 @@ body{
     margin: 10px 0;
     text-align: center;
     text-decoration: underline;
+    color: #fff;
 }
 .btns{
     text-align: center;
@@ -149,11 +151,13 @@ body{
     background: rgba(255, 255, 255, 0.6);
     margin: 10px;
     transition: all 0.3s ease;
+    font-weight: bold;
 }
 
 .btns .skillsBtn:hover{
-    transform: scale(1.2);
+    transform: scale(1.1);
     background: transparent;
+    color: rgb(126, 146, 211);
 }
 
 .aboutBtn{
@@ -176,7 +180,7 @@ body{
     text-decoration: none;
     font-weight: bold;
     transition: all .3s ease;
-    color: rgb(0, 0, 0);
+    color: rgb(126, 146, 211);
 }
 
 .aboutBtn .resumeBtn:hover{

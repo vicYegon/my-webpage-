@@ -22,15 +22,16 @@
 
 .logo{
     cursor: pointer;
-    font-size: 25px;
-    font-weight: 300;
-    text-transform: uppercase;
 }
 
 .logo a{
+    font-size: 25px;
+    text-transform: uppercase;
     text-decoration: none;
+    font-family: Arial;
     letter-spacing: 2px;
     padding: 5px 10px;
+    font-weight: 300;
     color: rgb(80, 108, 202);
 }
 
@@ -46,14 +47,13 @@
     font-weight: 400;
     color: #ffffff;
     cursor: pointer;
-    transition: all .3s ease;
+    transition: all 0.3s linear;
     text-decoration: none;
-    transition-property: border-bottom;
 }
 
 .nav_list ul a:hover{
-    text-decoration: none;
-    border-bottom: 3px solid #000000;
+    /* border-bottom: 4px solid #000000; */
+    color: rgb(126, 146, 211);
 }
 
 /* hero section */
