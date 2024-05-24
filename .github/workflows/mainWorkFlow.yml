@@ -1,0 +1,19 @@
+name: My Initial Workflow
+on:
+  push:
+    branches:
+    - main
+
+  pull_request:
+    branches:
+    - main
+    
+  workflow_dispatch:
+
+
+# jobs:
+#   herojob:
+#     name: Hero Test Page
+#     runs_on: windows10
+
+  
